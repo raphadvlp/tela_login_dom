@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #000; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    /* background-image: url('../image/background2.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: #163163; */
+    background-image: linear-gradient(to right, #031c30, #37548b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    background-image: none;
+    background-color: #b8b8b850;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 180px;
+    height: 180px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    margin-bottom: 10px;
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+form input::placeholder {
+    color: #929292;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lembrar-me {
+    margin-left: 18px;
+    color: #e0e0e0;
+}
+
+.lembrar-me input {
+    margin-right: 5px;
+}
+
+.text span {
+    margin-right: 18px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.text a:hover {
+    color: #031c30;
+}
+
+.button {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+}
+
+.button input {
+    margin-top: 15px;
+    width: 90%;
+    height: 40px;
+    background-image:linear-gradient(to right, #031c30, #355287);
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button-enviar:hover {
+    background-image:linear-gradient(to left, #031c30, #355287);
+}
